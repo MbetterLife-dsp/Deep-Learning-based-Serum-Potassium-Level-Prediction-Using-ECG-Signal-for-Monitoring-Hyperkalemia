@@ -19,6 +19,7 @@ Detailed contents can be confirmed in the pdf file of this repository.
 
 * The SPL causes deformities of the ECG pattern
   * ECG changes of hyperkalemia
+  
     ![image](https://user-images.githubusercontent.com/86009768/137899982-5594649c-3638-494d-99f0-c0465c72b2db.png)
 
 ### Purpose of this research
