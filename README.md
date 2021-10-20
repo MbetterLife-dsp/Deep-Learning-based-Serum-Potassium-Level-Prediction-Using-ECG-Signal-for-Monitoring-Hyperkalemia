@@ -28,4 +28,11 @@ Detailed contents can be confirmed in the pdf file of this repository.
 * Deep learning model for SPL prediction using ECG is proposed.
 * Compact deep learning model can warn hyperkalemia to CKD patients in compact system.
 
+### Electrocardiogram (ECG) input to the deep learning model
+
+* Digitalization process of ECG (부가설명필요0
+  
+  ![image](https://user-images.githubusercontent.com/86009768/138120927-23e66fe6-edd2-4f7d-abfc-49fb3afd36c0.png)
+  ![image](https://user-images.githubusercontent.com/86009768/138121349-938bc128-dd87-477f-8c6e-cdc3c27b067b.png)
+
 
