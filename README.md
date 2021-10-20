@@ -39,10 +39,10 @@ Detailed contents can be confirmed in the pdf file of this repository.
 
 * Depthwise separable convolutional neural network (DSCNN) is method to build light weight deep neural network.
 * DSCNN factorize a standard convolution into a depthwise convolution and pointwise convolution.
- * Comparison of structure
+  * Comparison of structure
    ![image](https://user-images.githubusercontent.com/86009768/138124973-b8092ed2-80c6-49df-9422-31e07498b319.png)
 
 
- * Comparison of total parameters
+  * Comparison of total parameters
   ![image](https://user-images.githubusercontent.com/86009768/138125014-37bf5471-0163-4c48-be4b-467e6f39edad.png)
 
