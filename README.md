@@ -46,3 +46,10 @@ Detailed contents can be confirmed in the pdf file of this repository.
   * Comparison of total parameters
   ![image](https://user-images.githubusercontent.com/86009768/138125014-37bf5471-0163-4c48-be4b-467e6f39edad.png)
 
+* Deep Learning Model for SPL Prediction
+* We adapted CRNN model based on a depthwise separable convolution kernel together with LSTM.
+  * Depthwise separable convolutional recurrent neural network (DSCRNN) identify morphological deformations of ECG.
+  * DSCRNN reduce the trainable parameters of CRNN.
+    * Structure of deep learning model for SPL prediction.
+      ![image](https://user-images.githubusercontent.com/86009768/138125283-e0d7b395-0a40-4d77-8336-cd7aee1a3be8.png)
+
