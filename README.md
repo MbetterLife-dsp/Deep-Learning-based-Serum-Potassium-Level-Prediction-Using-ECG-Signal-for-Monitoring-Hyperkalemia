@@ -53,3 +53,40 @@ Detailed contents can be confirmed in the pdf file of this repository.
     * Structure of deep learning model for SPL prediction.
       ![image](https://user-images.githubusercontent.com/86009768/138125283-e0d7b395-0a40-4d77-8336-cd7aee1a3be8.png)
 
+# Experiment results
+
+* Datasets
+  * ECGs from CKD patients with an average age of 73 years were recorded at Wonju Severance Christian Hospital from 2009 to 2019.
+  * 1,879 ECGs of the CKD patients were used for the experiment.
+    * Summary of the ECG datasets of CKD patients
+     ![image](https://user-images.githubusercontent.com/86009768/138126983-72638c70-5a8d-45ef-b1f0-a058755eb2a9.png)
+
+* Experiment for ECG Lead Selection
+  * Precordial leads : V1, V2, V3, V4, V5 and V6 were used for SPL prediction performance
+    * For performance evaluation, 5-fold cross validation was used.
+    * The results show that V5-lead has the highest prediction performance.
+      * Scatter-plot of SPLs prediction performance of precordial leads
+        ![image](https://user-images.githubusercontent.com/86009768/138127293-9aae81e7-0170-4580-b9c6-d853999e4acd.png)
+        
+* Experiment for One-Cycle ECG
+  * Comparison of one-cycle ECG and full ECG (2 seconds long)
+    * Example of 2-seconds
+      ![image](https://user-images.githubusercontent.com/86009768/138127424-a7ba8211-9d19-4b8a-8b37-e972142a713b.png)
+    * Learning curves of the proposed deep learning model
+      ![image](https://user-images.githubusercontent.com/86009768/138127466-8ec81a2c-27d1-4254-aa0b-a0681d447e85.png)
+
+* SPL Prediction Performance Comparison
+  * We compared SPLs prediction performances of FNN, CNN, RNN, CRNN and DSCRNN networks to verify the benefits of DSCRNN network.
+  * We also compare the model for the detection of hyperkalemia. (C. D. Galloway et al., 2012)
+    ![image](https://user-images.githubusercontent.com/86009768/138127554-1d563a27-a28d-46fc-8063-177d4920348d.png)
+
+* Results of SPL prediction
+  * Box-plots of SPL prediction performance of DSCRNN model for each trainable parameter
+    (a) 180k, (b) 10k, (c) 4k
+    
+    ![image](https://user-images.githubusercontent.com/86009768/138127674-a514e86e-cbd1-488d-9c0d-ca78c1ae0edf.png)
+
+  * Result shows that the DSCRNN – model maintains relatively high SPL prediction performance even in low trainable parameters.
+
+
+
