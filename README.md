@@ -30,9 +30,19 @@ Detailed contents can be confirmed in the pdf file of this repository.
 
 ### Electrocardiogram (ECG) input to the deep learning model
 
-* Digitalization process of ECG (부가설명필요0
+* Digitalization process of ECG (부가설명필요)
   
   ![image](https://user-images.githubusercontent.com/86009768/138120927-23e66fe6-edd2-4f7d-abfc-49fb3afd36c0.png)
   ![image](https://user-images.githubusercontent.com/86009768/138121349-938bc128-dd87-477f-8c6e-cdc3c27b067b.png)
 
+### Deep learning model for serum potassium level prediction
+
+* Depthwise separable convolutional neural network (DSCNN) is method to build light weight deep neural network.
+* DSCNN factorize a standard convolution into a depthwise convolution and pointwise convolution.
+ * Comparison of structure
+   ![image](https://user-images.githubusercontent.com/86009768/138124973-b8092ed2-80c6-49df-9422-31e07498b319.png)
+
+
+ * Comparison of total parameters
+  ![image](https://user-images.githubusercontent.com/86009768/138125014-37bf5471-0163-4c48-be4b-467e6f39edad.png)
 
