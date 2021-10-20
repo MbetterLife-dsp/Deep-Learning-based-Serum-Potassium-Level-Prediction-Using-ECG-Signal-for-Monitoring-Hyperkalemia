@@ -71,8 +71,11 @@ Detailed contents can be confirmed in the pdf file of this repository.
 * Experiment for One-Cycle ECG
   * Comparison of one-cycle ECG and full ECG (2 seconds long)
     * Example of 2-seconds
+    
       ![image](https://user-images.githubusercontent.com/86009768/138127424-a7ba8211-9d19-4b8a-8b37-e972142a713b.png)
+    
     * Learning curves of the proposed deep learning model
+      
       ![image](https://user-images.githubusercontent.com/86009768/138127466-8ec81a2c-27d1-4254-aa0b-a0681d447e85.png)
 
 * SPL Prediction Performance Comparison
