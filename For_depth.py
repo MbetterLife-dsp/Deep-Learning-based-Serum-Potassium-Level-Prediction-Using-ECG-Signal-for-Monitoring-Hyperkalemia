@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May 20 00:40:20 2020
 
-@author: PYC
-"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
