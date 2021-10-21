@@ -46,9 +46,8 @@ def build_model():
 
 #%% Load Datsets
 dataset = np.loadtxt("Load the one-cycle ECGs datasets(.csv)", delimiter=",")
-train_data = dataset[:, 0:270]
-train_targets = dataset[:, 274]
-well_dontknow=dataset[:,272]
+train_data = dataset[:, 0:270] #ECG length
+train_targets = dataset[:, 274] #label position
 X = keras.Input(shape=(270, 1))
 epoch=500
 k=5
