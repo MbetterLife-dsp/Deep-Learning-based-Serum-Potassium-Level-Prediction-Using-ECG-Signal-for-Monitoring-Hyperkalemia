@@ -31,15 +31,15 @@ Detailed contents can be confirmed in the pdf file of this repository.
 ### Electrocardiogram (ECG) input to the deep learning model
 
 1. Digitalization process of ECG 
-  * 1-dimension ECG waves are extracted through image processing from 12-lead ECG images measured in hospital machines.
+   * 1-dimension ECG waves are extracted through image processing from 12-lead ECG images measured in hospital machines.
   
-  ![image](https://user-images.githubusercontent.com/86009768/138120927-23e66fe6-edd2-4f7d-abfc-49fb3afd36c0.png)
+    ![image](https://user-images.githubusercontent.com/86009768/138120927-23e66fe6-edd2-4f7d-abfc-49fb3afd36c0.png)
   
 2. Digitalization process of ECG   
-  * ECG morphologies are detected for extraction of one-cycle ECG.
-  * In order to observe changes in the ECG dependent to hyperkalemia, normalization and synchronization of R-peak are performed. 
+   * ECG morphologies are detected for extraction of one-cycle ECG.
+   * In order to observe changes in the ECG dependent to hyperkalemia, normalization and synchronization of R-peak are performed. 
   
-   ![image](https://user-images.githubusercontent.com/86009768/138121349-938bc128-dd87-477f-8c6e-cdc3c27b067b.png)
+    ![image](https://user-images.githubusercontent.com/86009768/138121349-938bc128-dd87-477f-8c6e-cdc3c27b067b.png)
 
 ### Deep learning model for serum potassium level prediction
 
